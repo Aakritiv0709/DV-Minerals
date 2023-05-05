@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enquiry_form</title>
+    <link rel="stylesheet" href="style-2.css" />
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <div class="nav-container">
+        <div id="top-search">
+          <form action="">
+            <div class="input-box">
+              <span class="topser-icon">&#9906;</span>
+              <input type="text" class="search" placeholder="Search..." />
+              <span id="topsercross-icon">&#10005;</span>
+            </div>
+          </form>
+        </div>
+        <div class="header">
+          <div class="logo">
+            <a href="#"><i class="fa-brands fa-slack"></i>Logo</a>
+          </div>
+          <div class="navbar">
+            <ul id="menu">
+              <li>
+                <a href="About.html" class="droptoggle"
+                  >ABOUT US<span class="down-arrow">&#129171;</span></a
+                >
+                <ul class="submenu" id="fonnt">
+                  <li><a href="About.html">OUR PROFILE</a></li>
+                  <li><a href="About.html">MANUFACTURING FACILITIES</a></li>
+                  <li><a href="About.html">QUALITY ASSURANCE</a></li>
+                  <li><a href="About.html">AWARDS & RECOGNITION</a></li>
+                  <li><a href="About.html">POLICY</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="product.html" class="droptoggle"
+                  >PRODUCTS<span class="down-arrow">&#129171;</span></a
+                >
+                <ul class="submenu">
+                  <li><a href="product.html">SILICON CABLES</a></li>
+                  <li><a href="product.html">AUTO CABLES</a></li>
+                  <li><a href="product.html">FIRE AND SECURITY CABLES</a></li>
+                  <li><a href="product.html">CONTROL CABLES</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="Career.html" class="droptoggle"
+                  >CAREER<span class="down-arrow">&#129171;</span></a
+                >
+                <ul class="submenu">
+                  <li><a href="Career.html">CURRENT OPENINGS</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="Contact_Us.html" class="droptoggle"
+                  >CONTACT US<span class="down-arrow">&#129171;</span></a
+                >
+                <ul class="submenu">
+                  <li><a href="Contact_Us.html">HEAD OFFICE</a></li>
+                  <li><a href="Contact_Us.html">REGIONAL OFFICES</a></li>
+                  <li><a href="Contact_Us.html">GLOBAL OFFICES</a></li>
+                  <li><a href="Contact_Us.html">FACTORIES</a></li>
+                  <li><a href="Contact_Us.html">ENQUIRY & FEEDBACK</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="ser-btn">
+            <ul>
+              <li>
+                <a href="#"><span id="ser-btn-icon">&#9906;</span></a>
+              </li>
+              <li class="enquiry-btn">
+                <a href="Enquiry_form.html">Enquiry Now</a>
+              </li>
+              <li id="bar-icon"><a href="#">&#9776;</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------------enquiry form--------------->
+    <div class="contain">
+      <div class="wrapper">
+        <div class="form">
+          <h4 class="wapper_heading">GET IN TOUCH</h4>
+          <h2 class="form-headline">Send us a message</h2>
+          <form id="submit-form" action="">
+            <p>
+              <input
+                id="name"
+                class="form-input"
+                type="text"
+                placeholder="Your Name*"
+              />
+              <small class="name-error"></small>
+            </p>
+            <p>
+              <input
+                id="email"
+                class="form-input"
+                type="email"
+                placeholder="Your Email*"
+              />
+              <small class="name-error"></small>
+            </p>
+            <p class="full-width">
+              <input
+                id="company-name"
+                class="form-input"
+                type="text"
+                placeholder="Company Name*"
+                required
+              />
+              <small></small>
+            </p>
+            <p class="full-width">
+              <textarea
+                minlength="20"
+                id="message"
+                cols="30"
+                rows="4"
+                placeholder="Your Message*"
+                required
+              ></textarea>
+              <small></small>
+            </p>
+            <p class="full-width">
+              <input type="checkbox" id="checkbox" name="checkbox" checked />
+              Yes, I would like to receive communications by call / email about
+              Company's services.
+            </p>
+            <p class="full-width">
+              <input
+                type="submit"
+                class="submit-btn"
+                value="Submit"
+                onclick="checkValidations()"
+              />
+              <button class="reset-btn" onclick="reset()">Reset</button>
+            </p>
+          </form>
+        </div>
+
+        <div class="contacts contact-wrapper">
+          <ul>
+            <li>
+              We've driven online revenues of over
+              <span class="highlight-text-grey">$2 billion</span> for our
+              clients. Ready to know how we can help you?
+            </li>
+            <span class="hightlight-contact-info">
+              <li class="email-info">
+                <i class="fa fa-envelope" aria-hidden="true"></i> info@demo.com
+              </li>
+              <li>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span class="highlight-text">+91 11 1111 2900</span>
+              </li>
+            </span>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!----------footer section------------>
+    <!---<ul class="myfeedback">
+      <li class="feedback"><a href="#">Enquiry Now</a></li>
+    </ul>--->
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>About D V Minerals</h2>
+          <div class="content">
+            <p>
+              Established in the year 2020 in Madhya Pradesh , we " DV Minerals
+              and Associate " is an Individual Proprietor firm, engaged as a
+              Manufacturer and Wholesaler , Trader of Copper Earthing Wire ,
+              Audio Cable Loudspeaker Speaker Cable
+            </p>
+            <br />
+            <h2>Follow Us</h2>
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook"></span></a>
+              <a href="#"><span class="fab fa-twitter"></span></a>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+              <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text"
+                >000, Village - Kunwa, Post - Kunwa, Satna, Rewa-485112, Madhya
+                Pradesh, India</span
+              >
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+91-7974348211</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">abc@example.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Contact Us</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input
+                  placeholder="Enter your email address"
+                  class="input_contact_us"
+                  type="email"
+                  required
+                />
+              </div>
+              <div class="msg">
+                <div class="text">Message *</div>
+                <textarea
+                  class="input_contact_us"
+                  rows="1"
+                  cols="22"
+                  required
+                ></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bottom">
+      <center>
+        <p class="copyright">
+          Copyright &copy; 2023 DV Minerals | All rights reserved.
+        </p>
+      </center>
+    </div>
+
+    <script src="style.js"></script>
+    <script src="Main.js"></script>
+  </body>
+</html>

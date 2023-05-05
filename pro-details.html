@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+    <!-------- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />--->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product-details page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <div class="nav-container">
+        <div id="top-search">
+          <form action="">
+            <div class="input-box">
+              <span class="topser-icon">&#9906;</span>
+              <input type="text" class="search" placeholder="Search..." />
+              <span id="topsercross-icon">&#10005;</span>
+            </div>
+          </form>
+        </div>
+        <div class="header">
+          <div class="logo">
+            <a href="#"><i class="fa-brands fa-slack"></i>Logo</a>
+          </div>
+          <div class="navbar">
+            <ul id="menu">
+              <li>
+                <a href="About.html" class="droptoggle"
+                  >ABOUT US<span class="down-arrow">&#129171;</span></a
+                >
+                <ul class="submenu" id="fonnt">
+                  <li><a href="About.html">OUR PROFILE</a></li>
+                  <li><a href="About.html">MANUFACTURING FACILITIES</a></li>
+                  <li><a href="About.html">QUALITY ASSURANCE</a></li>
+                  <li><a href="About.html">AWARDS & RECOGNITION</a></li>
+                  <li><a href="About.html">POLICY</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="product.html" class="droptoggle"
+                  >PRODUCTS<span class="down-arrow">&#129171;</span></a
+                >
+                <ul class="submenu">
+                  <li><a href="product.html">SILICON CABLES</a></li>
+                  <li><a href="product.html">AUTO CABLES</a></li>
+                  <li>
+                    <a href="product.html">FIRE AND SECURITY CABLES</a>
+                  </li>
+                  <li><a href="product.html">CONTROL CABLES</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="Career.html" class="droptoggle"
+                  >CAREER<span class="down-arrow">&#129171;</span></a
+                >
+                <ul class="submenu">
+                  <li><a href="Career.html">CURRENT OPENINGS</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="droptoggle"
+                  >CONTACT US<span class="down-arrow">&#129171;</span></a
+                >
+                <ul class="submenu">
+                  <li><a href="Contact_Us.html">HEAD OFFICE</a></li>
+                  <li><a href="Contact_Us.html">REGIONAL OFFICES</a></li>
+                  <li><a href="Contact_Us.html">GLOBAL OFFICES</a></li>
+                  <li><a href="Contact_Us.html">FACTORIES</a></li>
+                  <li><a href="Contact_Us.html">ENQUIRY & FEEDBACK</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="ser-btn">
+            <ul>
+              <li>
+                <a href="#"><span id="ser-btn-icon">&#9906;</span></a>
+              </li>
+              <li class="enquiry-btn">
+                <a href="Enquiry_form.html">Enquiry Now</a>
+              </li>
+              <li id="bar-icon"><a href="#">&#9776;</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="CSSgal">
+      <!-- Don't wrap targets in parent -->
+      <s id="s1"></s>
+      <s id="s2"></s>
+      <s id="s3"></s>
+      <s id="s4"></s>
+
+      <div class="slider">
+        <!--< style="background: #85b">--->
+        <div class="image-pro">
+          <img src="/download/godown.jpg" />
+        </div>
+        <div>
+          <img src="/download/godown 2.jpg" />
+        </div>
+        <div>
+          <img src="/download/godown.jpg" />
+        </div>
+        <div>
+          <img src="/download/godown 2.jpg" />
+        </div>
+      </div>
+
+      <div class="prevNext">
+        <div>
+          <a href="#s4"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+
+          <a href="#s2"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div>
+          <a href="#s1"><i class="fa-sharp fa-solid fa-arrow-left"></i></a
+          ><a href="#s3"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div>
+          <a href="#s2"><i class="fa-sharp fa-solid fa-arrow-left"></i></a
+          ><a href="#s4"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div>
+          <a href="#s3"><i class="fa-sharp fa-solid fa-arrow-left"></i></a
+          ><a href="#s1"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="bullets">
+        <a href="#s1">1</a>
+        <a href="#s2">2</a>
+        <a href="#s3">3</a>
+        <a href="#s4">4</a>
+      </div>
+    </div>
+    <!------------------------------main content-------------------->
+    <div class="content_and_payment">
+      <div class="pro_details_content">
+        <div class="main_content_start">
+          <!---------------list---------->
+          <div class="pro_list">
+            <div class="pro_list_container">
+              <div class="pro_list_row">
+                <div class="pro_list_col">
+                  <h4>Details</h4>
+                </div>
+                <div class="pro_list_col">
+                  <ul>
+                    <li>
+                      <a href="#"><b>ID:</b>12345</a>
+                    </li>
+                    <li>
+                      <a href="#"><b>Cables:</b>2</a>
+                    </li>
+                    <li>
+                      <a href="#"><b>Normal Wire :</b>3</a>
+                    </li>
+                    <li>
+                      <a href="#"><b>Aluminium Wire:</b>4</a>
+                    </li>
+                    <li>
+                      <a href="#"><b>Flat Cable:</b>5</a>
+                    </li>
+                    <li>
+                      <a href="#"><b>Zebra acsr:</b>6</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pro_list_col">
+                  <ul>
+                    <li>
+                      <a href="#"><b>Cables:</b>2</a>
+                    </li>
+                    <li>
+                      <a href="#"><b>Normal Wire :</b>3</a>
+                    </li>
+                    <li>
+                      <a href="#"><b>Aluminium Wire:</b>4</a>
+                    </li>
+                    <li>
+                      <a href="#"><b>Flat Cable:</b>5</a>
+                    </li>
+                    <li>
+                      <a href="#"><b>Zebra acsr:</b>6</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="heading_tag1">
+            <h3>Lorem ipsum dolor sit.|Lorem ipsum</h3>
+          </div>
+          <div class="pro_para1">
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+          <div class="heading_tag2">
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+          </div>
+          <div class="heading_tag3">
+            <h3>About this listing</h3>
+          </div>
+          <div class="para_tag3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+          </div>
+          <div class="para_tag4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+              numquam esse quibusdam dolores perferendis ipsum beatae
+              consequuntur illo, doloribus cumque possimus voluptatem nemo
+              suscipit quaerat quo asperiores inventore voluptatibus sequi.
+            </p>
+          </div>
+          <div class="para_tag5">Lorem, ipsum.</div>
+          <div class="para_tag6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+              cupiditate iusto, quod necessitatibus quo ratione odit nemo
+              laborum a nulla sunt deleniti, assumenda asperiores voluptate
+              repellat? Tempore aspernatur quia suscipit earum. Ex nam
+              asperiores, labore quaerat aperiam natus quasi necessitatibus
+              fugiat iste, vel consequatur inventore cum illum aspernatur
+              deserunt nihil.
+            </p>
+          </div>
+
+          <div class="other_sub_head">
+            <p>Lorem ipsum dolor sit.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>
+              -Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Eligendi, architecto.
+            </p>
+            <p>
+              -Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit eveniet commodi temporibus ad dolorum non animi,
+              corporis ullam minima molestiae.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem a eveniet doloremque maxime fugiat voluptate
+              suscipit sapiente assumenda autem rerum, repellat voluptatum!
+              Dolore maxime deserunt debitis vel enim exercitationem nisi quod
+              labore impedit eum nihil qui, magni inventore consequuntur tempora
+              in quaerat laborum quidem saepe dicta voluptate possimus harum?
+              Ratione numquam autem labore quisquam nostrum ipsam voluptatem
+              natus fuga rerum nisi libero, minima voluptate nulla, provident
+              earum aut temporibus ullam consequuntur neque modi? Ea impedit
+              itaque praesentium blanditiis incidunt deserunt saepe officia eum
+              consequuntur quaerat omnis nostrum, voluptas porro harum natus
+              ipsam sint reprehenderit, dolor vero perspiciatis expedita.
+              Voluptate, eum!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--------payment-->
+      <div class="payment">
+        <div class="wrapper">
+          <h2>Booking Form</h2>
+          <form action="" method="post">
+            <!--Account Information Start-->
+            <h4>User Details</h4>
+            <div class="input_group">
+              <div class="input_box">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  required
+                  class="name"
+                />
+                <i class="fa fa-user icon"></i>
+              </div>
+              <div class="input_box">
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  required
+                  class="name"
+                />
+                <i class="fa fa-user icon"></i>
+              </div>
+            </div>
+            <div class="input_group">
+              <div class="input_box">
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  required
+                  class="name"
+                />
+                <i class="fa fa-envelope icon"></i>
+              </div>
+            </div>
+            <div class="input_group">
+              <div class="input_box">
+                <input
+                  type="text"
+                  placeholder="Address"
+                  required
+                  class="name"
+                />
+                <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="input_group">
+              <div class="input_box">
+                <input type="text" placeholder="City" required class="name" />
+                <i class="fa fa-institution icon"></i>
+              </div>
+            </div>
+            <!--Account Information End-->
+
+            <div class="input_group">
+              <div class="input_box">
+                <button type="submit">Instant Booking</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-----------------------end--------------------->
+    <ul class="myfeedback">
+      <li class="feedback"><a href="Enquiry_form.html">Enquiry Now</a></li>
+    </ul>
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>About D V Minerals</h2>
+          <div class="content">
+            <p>
+              Established in the year 2020 in Madhya Pradesh , we " DV Minerals
+              and Associate " is an Individual Proprietor firm, engaged as a
+              Manufacturer and Wholesaler , Trader of Copper Earthing Wire ,
+              Audio Cable Loudspeaker Speaker Cable
+            </p>
+            <br />
+            <h2>Follow Us</h2>
+            <div class="social">
+              <a href="#"><span class="fab fa-facebook"></span></a>
+              <a href="#"><span class="fab fa-twitter"></span></a>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+              <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text"
+                >000, Village - Kunwa, Post - Kunwa, Satna, Rewa-485112, Madhya
+                Pradesh, India</span
+              >
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+91-7974348211</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">abc@example.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Contact Us</h2>
+          <div class="content">
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input
+                  placeholder="Enter your email address"
+                  class="input_contact_us"
+                  type="email"
+                  required
+                />
+              </div>
+              <div class="msg">
+                <div class="text">Message *</div>
+                <textarea
+                  class="input_contact_us"
+                  rows="3"
+                  cols="22"
+                  required
+                ></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bottom">
+      <center>
+        <p class="copyright">
+          Copyright &copy; 2023 DV Minerals | All rights reserved.
+        </p>
+      </center>
+    </div>
+    <script src="style.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!---<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>-->
+  </body>
+</html>
