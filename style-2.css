@@ -1231,7 +1231,7 @@ button:focus,
 .background_opening {
   width: 100%;
   height: 600px;
-  background-image: url("/dv/image/job-2.avif");
+  background-image: url("./image/job-2.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1525,7 +1525,7 @@ select:focus {
 .background_opening-2 {
   width: 100%;
   height: 600px;
-  background-image: url("/dv/image/contact.avif");
+  background-image: url("./image/contact.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1657,7 +1657,7 @@ select:focus {
 .background_opening-4 {
   width: 100%;
   height: 350px;
-  background-image: url("/download/godown\ 2.jpg");
+  background-image: url("./image/carousel-1.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1701,7 +1701,7 @@ select:focus {
 .background_opening-3 {
   width: 100%;
   height: 600px;
-  background-image: url("/download/godown.jpg");
+  background-image: url("./image/carousel-1.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
